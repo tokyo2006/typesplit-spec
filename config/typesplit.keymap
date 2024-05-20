@@ -83,11 +83,11 @@
 
         Navi {
             bindings = <
-&bootload_macro  &trans  &trans  &trans  &trans  &trans               &trans                &trans          &trans          &trans          &trans  &trans  &trans
-&trans           &trans  &trans  &trans  &trans  &kp C_VOLUME_UP      &kp C_BRIGHTNESS_INC  &trans          &kp UP_ARROW    &trans          &trans  &trans  &trans
-&trans           &trans  &trans  &trans  &trans  &kp C_VOLUME_DOWN    &kp C_BRIGHTNESS_DEC  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp DOWN_ARROW  &trans  &trans  &trans
-&trans           &trans  &trans  &trans  &trans  &trans               &trans                &trans          &trans          &trans          &trans  &trans
-&trans           &trans  &trans  &trans  &trans  &trans               &trans                &trans          &trans          &trans          &trans  &trans
+&bootload_macro  &trans  &trans  &trans  &trans  &trans               &trans                &trans          &trans          &trans           &trans  &trans  &trans
+&trans           &trans  &trans  &trans  &trans  &kp C_VOLUME_UP      &kp C_BRIGHTNESS_INC  &trans          &kp UP_ARROW    &trans           &trans  &trans  &trans
+&trans           &trans  &trans  &trans  &trans  &kp C_VOLUME_DOWN    &kp C_BRIGHTNESS_DEC  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans
+&trans           &trans  &trans  &trans  &trans  &trans               &trans                &trans          &trans          &trans           &trans  &trans
+&trans           &trans  &trans  &trans  &trans  &trans               &trans                &trans          &trans          &trans           &trans  &trans
             >;
 
             label = "Navi";
