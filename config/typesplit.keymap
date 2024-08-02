@@ -31,7 +31,19 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        back_slash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <30 33>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <29 34>;
+        };
+    };
 
     behaviors {
         hm: homerow_mods {
